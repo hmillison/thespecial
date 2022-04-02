@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Sarabun);
+
+:root {
+  /* thank you bangkok center grocery */
+  --brand-color: #FDF250;
+  --accent-color: #23511e
+}
+
+html {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Sarabun', Helvetica, san-serif;
+  background-color: var(--brand-color);
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.details {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.cta {
+  color: var(--accent-color);
+  text-decoration: none;
+}
