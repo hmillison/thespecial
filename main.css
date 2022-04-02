@@ -11,6 +11,12 @@ html {
   line-height: 1.4;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 1em;
+  }
+}
+
 body {
   font-family: 'Sarabun', Helvetica, san-serif;
   background-color: var(--brand-color);
@@ -18,6 +24,9 @@ body {
 
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -27,9 +36,13 @@ body {
 .details {
   font-size: 2em;
   text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0.1em;
 }
 
 .cta {
   color: var(--accent-color);
+  font-size: 5em;
   text-decoration: none;
+  margin-top: 0.2em;
 }
